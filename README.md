@@ -1,5 +1,5 @@
 # glucose-to-weather
-An info and link collector about the idea of using weather info on smartwatches to display glucose values.
+An info and link collector where to discuss about the idea of using weather info on smartwatches to display glucose values.
 
 1) @SaschaH42 [fake weather provider for gadgetbridge](https://github.com/NightscoutFoundation/xDrip/discussions/2125)
 
