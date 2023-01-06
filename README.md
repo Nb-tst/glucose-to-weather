@@ -37,7 +37,7 @@ Here a random numbers example of the watchface:
 <img src = example.png>
 
 # Current limitations:
-- No BG alarms. This is maybe the bigger missing feature. Only standard notification could be used for xDrip.
+- No BG alarms. This is maybe the bigger missing feature. Only standard notification could be used for xDrip on the band ( eg as message notification and not as alarms and calls ).
 - No graph. It won't be possible anytime given the nature of the approach.
 - You cannot have weather. There is probably a way to display at least something ( eg current temp ) by better managing digits on the watchface.
 - As int values are used for hours and minutes, single digit hours/minutes will be displayed as single digits.
@@ -60,6 +60,6 @@ For testing purposes I set weather values to constants in GadgetBridgeAPI.java s
 - wait a few second for the values to be displayed on the watch ( the app search for new values every 20 seconds )
 
 # Useful resources:
-- [Watch faces creator for mi band 5-6](https://github.com/Johnson070/MiBand-5-watchface-editor) ( useful as it has a gui which allows to drag elements and set specific value to test the rendering )
+- [Watch faces creator for mi band 5-6](https://github.com/Johnson070/MiBand-5-watchface-editor) ( useful as it has a gui which allows to drag elements and set specific values to test the rendering )
 - [Watchface creator for mi band 5-6-7](https://watchface-web-editor.vercel.app/). It can run even on locale. More stable than the first one, has a better interface to diplay and load images.
 - [How to build you app from source](https://github.com/openaps/AndroidAPSdocs/blob/master/docs/EN/Installing-AndroidAPS/Building-APK.md)
