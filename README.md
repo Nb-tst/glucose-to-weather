@@ -51,7 +51,7 @@ For testing purposes I set weather values to constants in GadgetBridgeAPI.java s
 - in xDrip settings-> interapps settings enable webservice
 - install Gadgetbridge and connect your band/watch
 - install the xDrip-Gb-gateway app and open it, press to get xDrip values
-- wait a few second for the values to be displayed on the watch ( the app serach for new values every 20 seconds )
+- wait a few second for the values to be displayed on the watch ( the app search for new values every 20 seconds )
 
 # Useful resources:
 - [Watch faces creator for mi band 5-6](https://github.com/Johnson070/MiBand-5-watchface-editor) ( useful as it has a gui which allows to drag elements and set specific value to test the rendering )
