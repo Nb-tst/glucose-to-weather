@@ -29,6 +29,7 @@ As for now I used this scheme:
 - No BG alarms. This is maybe the bigger missing feature. Only standard notification could be used for xDrip.
 - No graph. It won't be possible anytime given the nature of the approach.
 - You cannot have weather. There is probably a way to display at least something ( eg current temp ) by better managing digits on the watchface.
+- As int values are used for hours and minutes, single digits hours/minutes will be displayed as single digits.
 - Watchface has bad fonts and sometimes values ( eg HH:mm) overlaps, so it has to be tweaked
 - There are probably tons of bugs which will display in the worst time
 
