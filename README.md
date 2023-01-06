@@ -29,6 +29,7 @@ As for now I used this scheme:
 
 
 Here a random numbers example of the watchface:
+
 <img src = example.png>
 
 # Current limitations:
