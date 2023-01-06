@@ -35,7 +35,7 @@ As for now I used this scheme:
 
 # Status of other bands:
 Unknown.
-With the Amazfit 5 there are no reality checks on temperature and humidity, you can send a minTemp value which is bigger than a maxTemp one, or you can set humidity to 250%. Others models needs to be tested, for those which this do not apply it would be trickier to find a working arrangement of weather values.
+With the Amazfit 5 there are no reality checks on temperature and humidity, you can send a minTemp value which is bigger than a maxTemp one, or you can set humidity to 250%. Others models needs to be tested, for those which this does not apply it is trickier to find a working arrangement of weather values on the screen, but it could be done.
 Mi band5 is the next natural tester, as it is very similar to amazfit5 and could even share the same wacthface. Then mi band6 and mi band 7, which in case will require a new watchface.
 For testing purposes I set weather values to constants in GadgetBridgeAPI.java so to test limits.
 
