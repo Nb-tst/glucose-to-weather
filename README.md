@@ -14,7 +14,7 @@ An info and link collector where to discuss about the idea of using weather info
 Playing with @Sascha42 's application I've managed to display glucose values to an Amazfit 5.
 All I had to do was to patch two files in ist source code: GadgetBridgeAPI.java used to manage info from xDrip webserver, and FirsFragment.java which is used to decide what to send to the watch. For testing purposes I set weather values to constants.
 Finally I had to create an appropriate watchface. 
-I used a minimalistic watchface created by netrunner.exe and added some elements from @bigdigital watchdrip project, and tweaked elements position.
+I used a minimalistic watchface created [by netrunner.exe](https://amazfitwatchfaces.com/mi-band-5/view/3661) and added some elements from [@bigdigital's watchdrip](https://github.com/bigdigital/watchdrip) project, and tweaked elements position.
 As for now I used this scheme:
 - Humidity  ( range 0-254 ) as current glucose value. When the value is higher a 0 is displayed.
 - Weather icons as trend arrows ( there are 26 differents icons, so with proper images this value could be used for diplay hours )
