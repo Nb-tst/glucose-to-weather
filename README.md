@@ -12,7 +12,7 @@ An info and link collector where to discuss about the idea of using weather info
 
 # Proof of concept:
 Playing with @Sascha42 's application I've managed to display glucose values to an Amazfit 5.
-All I had to do was to patch two files in ist source code: GadgetBridgeAPI.java used to manage info from xDrip webserver, and FirsFragment.java which is used to decide what to send to the watch. For testing purposes I set weather values to constants.
+All I had to do was to patch two files in ist source code: GadgetBridgeAPI.java used to manage info from xDrip webserver, and FirsFragment.java which is used to decide what to send to the watch.
 Finally I had to create an appropriate watchface. 
 I used a minimalistic watchface created [by netrunner.exe](https://amazfitwatchfaces.com/mi-band-5/view/3661) and added some elements from [@bigdigital's watchdrip](https://github.com/bigdigital/watchdrip) project, and tweaked elements position.
 As for now I used this scheme:
@@ -37,6 +37,13 @@ As for now I used this scheme:
 Unknown.
 With the Amazfit 5 there are no reality checks on temperature and humidity, you can send a minTemp value which is bigger than a maxTemp one, or you can set humidity to 250%. Others models needs to be tested, for those which this do not apply it would be trickier to find a working arrangement of weather values.
 Mi band5 is the next natural tester, as it is very similar to amazfit5 and could even share the same wacthface. Then mi band6 and mi band 7, which in case will require a new watchface.
+For testing purposes I set weather values to constants in GadgetBridgeAPI.java so to test limits.
+
+# Test procedure:
+- in xDrip settings-> interapps settings enable webservice
+- install Gadgetbridge and connect your band/watch
+- install the xDrip-Gb-gateway app and open it, press to get xDrip values
+- wait a few second for the values to be displayed on the watch ( the app serach for new values every 20 seconds )
 
 # Useful resources:
 - [Watch faces creator for mi band 5-6](https://github.com/Johnson070/MiBand-5-watchface-editor) ( useful as it has a gui which allows to drag elements and set specific value to test the rendering )
