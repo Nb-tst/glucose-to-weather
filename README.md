@@ -32,12 +32,12 @@ As for now I used this scheme:
 - Watchface has bad fonts and sometimes values ( eg HH:mm) overlaps, so it has to be tweaked
 - There are probably tons of bugs which will display in the worst time
 
-#Status of other bands:
+# Status of other bands:
 Unknown.
 With the Amazfit 5 there are no reality checks on temperature and humidity, you can send a minTemp value which is bigger than a maxTemp one, or you can set humidity to 250%. Others models needs to be tested, for those which this do not apply it would be trickier to find a working arrangement of weather values.
 Mi band5 is the next natural tester, as it is very similar to amazfit5 and could even share the same wacthface. Then mi band6 and mi band 7, which in case will require a new watchface.
 
-#Useful resources:
-- Watch faces creator for mi band 5-6 ( useful as it has a gui which allows to drag elements and set specific value to test the rendering )
-- Watchface creator for mi band 5-6-7. It can run even on locale. More stable than the first one, has a better interface to diplay and load images.
-- How to build you app from source
+# Useful resources:
+- [Watch faces creator for mi band 5-6](https://github.com/Johnson070/MiBand-5-watchface-editor) ( useful as it has a gui which allows to drag elements and set specific value to test the rendering )
+- [Watchface creator for mi band 5-6-7](https://watchface-web-editor.vercel.app/). It can run even on locale. More stable than the first one, has a better interface to diplay and load images.
+- [How to build you app from source](https://github.com/openaps/AndroidAPSdocs/blob/master/docs/EN/Installing-AndroidAPS/Building-APK.md)
