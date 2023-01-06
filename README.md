@@ -9,6 +9,8 @@ An info and link collector where to discuss about the idea of using weather info
 
 4) [Discussion in Watchdrip repo](https://github.com/bigdigital/watchdrip/issues/6#)
 
+# For testing purposes only! Do not rely on this method for glucose monitoring or treatment decisions!
+
 
 # Proof of concept:
 Playing with @Sascha42 's application I've managed to display glucose values to an Amazfit 5 using xDrip, Gadgetbridge and a fake weather provider.
@@ -17,6 +19,8 @@ All I had to do was to patch two files in ist source code: GadgetBridgeAPI.java 
 
 Finally I had to create an appropriate watchface. 
 I used a minimalistic watchface created [by netrunner.exe](https://amazfitwatchfaces.com/mi-band-5/view/3661) and added some elements from [@bigdigital's watchdrip](https://github.com/bigdigital/watchdrip) project, and tweaked elements position.
+
+
 
 As for now I used this scheme:
 - Humidity  ( range 0-254 ) as current glucose value. When the value is higher a 0 is displayed.
@@ -50,6 +54,8 @@ For testing purposes I set weather values to constants in GadgetBridgeAPI.java s
 # Test procedure:
 - in xDrip settings-> interapps settings enable webservice
 - install Gadgetbridge and connect your band/watch
+- Upload the watchface ( just open the file and Gadgebridge will manage it )
+- Build the application from @sasha42 source ( link is provided in the firs section ) using GadgetbridgeAPI.java and FirstFragment.java that you can find in this repo.
 - install the xDrip-Gb-gateway app and open it, press to get xDrip values
 - wait a few second for the values to be displayed on the watch ( the app search for new values every 20 seconds )
 
