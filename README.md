@@ -23,7 +23,7 @@ As for now I used this scheme:
 - Min ( night ) temp as last reading minute
 - Wind speed is unused. Could be used as another digit for bg, or as trend arrow so to let weather icons for another info ( eg hours ).
 - UV is still not implemented by gadgetbridge api, so it is not usable for now.
-
+<img src = example.png>
 
 # Current limitations:
 - No BG alarms. This is maybe the bigger missing feature. Only standard notification could be used for xDrip.
