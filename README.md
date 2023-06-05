@@ -1,3 +1,7 @@
+# NEWS:
+Juggluco can now send values to Gadgetbridge.
+[Se here for a discussion in its repo](https://github.com/j-kaltes/Juggluco/discussions/33)
+
 # glucose-to-weather
 An info and link collector where to discuss about the idea of using weather info on smartwatches to display glucose values.
 
